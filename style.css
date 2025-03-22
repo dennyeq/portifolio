@@ -1,0 +1,127 @@
+:root {
+    --background-color: #000000;
+    --titulo-cor: #f6f6f6;
+    --titulo-font-family: Krona one;
+    --paragrafo-font-family: arial;
+    --titulo-font-size: 36px;
+    --paragrafo-font-size: 24px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    /*height: 100vh;*/
+    background-color: var(--background-color);
+    color: var(--titulo-cor);
+    font-family: Krona one;
+    display: flex;
+    flex-direction: column;
+}
+
+.cabecalho {
+    padding: 5% 10%;
+}
+
+.menu {
+    display: flex;
+    gap: 40px;
+}
+
+.menu li{
+    list-style: none;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #22D4FD;
+    font-size: 24px;
+    font-weight: 600;
+}
+.apresentacao {
+    padding: 5% 10%;
+    display: flex;
+    gap: 40px;
+}
+
+.apresentacao_contiudo {
+    width: 615px;
+    height: 482px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.apresentacao_contiudo h1 {
+    font-size: var(--titulo-font-size);
+    color: var(--titulo-cor);
+    font-weight: 400;
+    font-family: var(--titulo-font-family);
+}
+
+.apresentacao_contiudo strong {
+    color: #22D4FD;
+}
+
+.apresentacao_contiudo p {
+    font-size: var(--paragrafo-font-size);
+    font-family: var(--paragrafo-font-family);
+}
+
+.botoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+}
+.botoes h2{
+    font-weight: 400;
+    font-size: 24px;
+}
+.botoes a {
+    width: 378px;
+    height: 68px;
+    color: #F6F6F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: var(--paragrafo-font-size);
+    font-family: var(--paragrafo-font-family);
+    border: 2px solid #22D4FD;
+    border-radius: 8px;
+    padding: 16px;
+    gap: 16px;
+}
+
+.apresentacao_img {
+    padding: 12px 0px 0px 0.5px;
+    width: 488px;
+    height: 550px;
+    border-radius: 10px;
+    border-top: 2px solid #22D4FD;
+    border-right: 2px solid #22D4FD;
+}
+
+.apresentacao_imgs {
+    width: 467.7px;
+    height: 532px;
+}
+
+.footer {
+    display: flex;
+    height: 80px;
+    background-color: #22D4FD;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer h3 {
+    color: #000;
+}
+
